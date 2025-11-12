@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    // Using subtraction method
+    if (a - b)
+        printf("Numbers are not equal.\n");
+    else
+        printf("Numbers are equal.\n");
+
+    return 0;
+}
